@@ -27,11 +27,5 @@ Tutaj znajdziesz tutorial jak rozpocząć pracę ze swoim repozytorium w domu
 ## [Zadanie 1](./homework_1.md)
 *Termin:* 30.12.2017
 *Opis:* Założenie i skonfigurowanie własnego brancha
-*Punktacja* 1 punkt
+*Punktacja* 2 punkty
 
-## Zadanie 0
-*Termin:* 14.10.2017
-
-*Opis:* Konfiguracja środowiska lokalnego, WebStorm + ewentualnie Linux.
-
-*Punktacja* 1 punkt
