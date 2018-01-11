@@ -1,0 +1,227 @@
+h1, h2, h3 {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+body {
+    background-color: black;
+    font-family: 'Indie Flower', cursive;
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    float: left;
+    position: fixed;
+    height: 100px;
+    background: white;
+}
+
+#logo {
+    float: left;
+    margin: 5px 20px;
+}
+
+header nav {
+    float: right;
+    margin-right: 20px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+}
+
+header nav ul li {
+    list-style: none;
+    text-align: center;
+    float: left;
+    padding: 10px 20px;
+    margin: 5px 20px;
+    background: red;
+    text-transform: uppercase;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+header nav ul li a:hover {
+    color: blue;
+    background-color: crimson;
+}
+
+header nav ul li a:visited {
+    color: grey;
+}
+
+main {
+    float: left;
+    width: 60%;
+    margin-top: 100px;
+    min-height: 90vh;
+}
+
+main section {
+    background-color: white;
+    margin: 10px 20px;
+    padding: 5px 20px;
+}
+
+main article {
+    background-color: white;
+    margin: 10px 20px;
+    padding: 5px 20px;
+}
+
+main p {
+    text-align: justify;
+}
+
+aside {
+    float: right;
+    width: 40%;
+    margin-top: 100px;
+}
+
+aside nav{
+    background-color: white;
+    margin: 10px 20px 10px 0px;
+    padding: 5px 20px;
+}
+
+aside section {
+    background-color: white;
+    margin: 10px 20px 10px 0px;
+    padding: 5px 20px;
+}
+
+aside p {
+    text-align: justify;
+}
+
+.clearfix {
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background: white;
+    padding: 3px;
+}
+
+.about-flex {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text {
+    margin-right: 20px;
+    flex-grow: 2;
+    text-align: center;
+}
+#my-photo {
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+.gallery-flex {
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-flex figure {
+    align-self: baseline;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-flex img {
+    max-height: 150px;
+    max-width: 200px;
+}
+
+.gallery-flex figcaption {
+    background: white;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 200px;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+.contact-side {
+    width: 30%;
+    background: white;
+    height: 90vh;
+}
+.contact-side h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+form {
+    padding-left: 20px;
+}
+
+form p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.contact-side ul li{
+    list-style: none;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+}
+
+form h1 {
+    color: white;
+}
+
+
+input[type=text] {
+    width: 600px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Indie Flower', cursive;
+    border: none;
+}
+
+textarea {
+    width: 600px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 0;
+    border: none;
+}
+
+input[type=submit] {
+    margin: 15px;
+    width: 90px;
+    height: 60px;
+    font-size: 25px;
+
+
+}
