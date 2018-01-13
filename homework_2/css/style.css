@@ -7,6 +7,7 @@ body {
     background-color: black;
     font-family: 'Indie Flower', cursive;
     margin: 0px;
+    min-height: 100%;
 }
 
 header {
@@ -63,7 +64,7 @@ main {
     float: left;
     width: 60%;
     margin-top: 100px;
-    min-height: 90vh;
+
 }
 
 main section {
@@ -113,6 +114,8 @@ footer {
     width: 100%;
     background: white;
     padding: 3px;
+    position: fixed;
+    bottom: 0;
 }
 
 .about-flex {
@@ -167,7 +170,7 @@ footer {
 .contact-side {
     width: 30%;
     background: white;
-    height: 90vh;
+    height: 82vh;
 }
 .contact-side h2 {
     text-align: center;
@@ -217,11 +220,9 @@ textarea {
     border: none;
 }
 
-input[type=submit] {
+input[type=submit], input[type=reset] {
     margin: 15px;
     width: 90px;
     height: 60px;
     font-size: 25px;
-
-
 }
